@@ -2,7 +2,23 @@
 title: "example"
 output: html_document
 ---
+write_compendium_description(package = "Your compendium name", 
+                             description = "Your compendium description")
 
+write_dockerfile(maintainer = "your_name") 
+
+generate_badge() 
+
+
+A <- 1
+B <- 2
+C <- A+B
+C
+C <- 2
+D <- 3
+E <- C+D
+E
+4.5.12
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
